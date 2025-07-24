@@ -15,6 +15,9 @@ Evaluation: Performance is measured using Precision@10, Recall@10, and MAP@10.
 - Best Semantic Model: Log-Entropy + LSA achieved the highest performance among LSA-enhanced models (MAP@10≈0.693).
 - LSA is Not Always Better: Adding LSA can sometimes degrade the performance of strong baseline models like BM25.
 
+<img width="468" height="311" alt="impact_lsa_dimensionality_all_models" src="https://github.com/user-attachments/assets/0e49815b-eee8-4f56-9837-b6cbe73bad81" />
+
+
 ## Tech Stack
 - Python
 - scikit-learn: For TF-IDF, TruncatedSVD (LSA), and cosine similarity.
