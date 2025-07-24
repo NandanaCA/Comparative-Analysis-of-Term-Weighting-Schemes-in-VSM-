@@ -16,7 +16,7 @@ Evaluation: Performance is measured using Precision@10, Recall@10, and MAP@10.
 - LSA is Not Always Better: Adding LSA can sometimes degrade the performance of strong baseline models like BM25.
 
 ## Tech Stack
-- Python 3.x
+- Python
 - scikit-learn: For TF-IDF, TruncatedSVD (LSA), and cosine similarity.
 - spaCy: For efficient tokenization and lemmatization.
 - NLTK: For its English stopword list.
